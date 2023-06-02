@@ -1,0 +1,9 @@
+output   = "gnucash"
+pkgname  = "gnucash"
+wipe     = true
+no-tests = true
+add-enum-types = true
+
+[sqlite3]
+  dbname = "gnucash.db.gnucash"
+  blacklist = ["gnclock"]

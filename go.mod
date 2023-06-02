@@ -1,4 +1,4 @@
-module gnucash-sqlboiler
+module github.com/rene00/gnucash-sqlboiler
 
 go 1.19
 
